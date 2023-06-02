@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffe House</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class='cabecalho-clique' href="index.html">Página Principal</a>
+            <a class='cabecalho-clique' href="Menu.html">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal da tela -->
+    <main class="conteudo-main">
+        <section class="conteudo1">
+            <div class="conteudo1-div">
+                <h1 class="conteudo-principal-menu">Informações para contato</h1>
+                <h2 class="conteudo-principal-opcao">Telefone</h2>
+                <h3 class="conteudo-principal-info">(48) 4002-8922 e <br>(48) 99933-7429</h3>
+                <h2 class="conteudo-principal-opcao">Endereço</h2>
+                <h3 class="conteudo-principal-info">Rua Bocaiúva, 2026</h3>
+                <h2 class="conteudo-principal-opcao">Horário de funcionamento</h2>
+                <h3 class="conteudo-principal-info">Segunda a Sábado: 12:00 às 22:00 <br> Domingo: 16:00 às 21:00</h3>
+                <h2 class="conteudo-principal-opcao">Mapa de Localização</h2>
+                <img class='foto-principal' src="mapa.png" alt="Mapa">
+
+                <div class="box">
+                    <h1>Alguma dúvida? Deixe suas informações para entrarmos em contato</h1>
+                <form enctype="multipart/form-data" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" class="inputs" style="text-align:center"><br>
+        
+        
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" class="inputs" style="text-align:center"><br>
+        
+        
+                    <label for="numero">Telefone:</label>
+                    <input type="number" id="numero" name="numero" class="inputs" style="text-align:center"><br>
+        
+                    <input type="submit" value="Enviar" class="bt" onclick="Validar()">
+                </form>
+            </div>        
+            </div>      
+                  
+        </section>
+    </main>
+
+    <!-- Rodapé para embelezamento -->
+    <footer class="footer">
+        <img class='footer-foto' src="the-coffee-house-vector-logo.svg" alt="logo footer">
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
